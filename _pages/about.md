@@ -1,19 +1,121 @@
 ---
+layout: single
 permalink: /
-title: "Performance-based Generative Design Process for Net Zero Carbon Buildings"
+title: ""
 author_profile: true
+toc: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Performance-based generative design process uses optimization algorithms to automatically search for better designs based on two main inputs from the users; the solution space and the objective functions. In building designs, the solution space is usually formulated as a parametric model. The selected optimization algorithm uses the parametric model to generate design variants by varying its parameters. The generated variants are evaluated by building simulations and the results are used in the objective functions to determine a variant’s performance. Based on the performance, the optimization algorithm then adjusts the parameters accordingly to generate better performing design variants. Hundreds to thousands of design variants can be generated in an execution. An execution can be completed in a few hours to a few days depending on the complexity of the design problem.
-<br/><br/>
-If the solution space is meaningfully formulated and the objective functions well-defined, performance-based generative design process can be effectively used to achieve net zero carbon building design. However, the process is currently under-utilized in design projects. The main reasons being difficulties in preparing the inputs and interpretation of the results. Not many designers are able to meaningfully encode their design concepts as solution spaces and define zero carbon related objective functions to evaluate the generated design variants, which leads to misinterpretation of the process and results. My research aims to address this issue and enable a seamless integration of performance-based generative design process into the various stages of a building design. To encourage adoption in design practices, especially in developing countries that will see rapid urbanization and developments, my research will use only open source technologies and the results will be made openly available.
+{% include base_path %}
 
-## Models and Analyses 
-Major cities around the world are launching open data portals, providing access to high-resolution built environment data. However, these data are often provided in formats that require intensive processing before they can be used in analysis, designers are hindered from fully capitalizing on these data. This proposal will investigate and identify the models useful for achieving zero carbon emissions, followed by the data requirements for executing these models and lastly, investigate the techniques for acquiring the data. In my previous studies, I have worked with building scientists and urban climatologists in modeling the built environment for solar simulation and carbon accounting analysis1. I have also worked with building scientists in streamlining the data analysis process for measuring the mean radiant temperature. Building upon these studies, this proposal will develop techniques to access and integrate the diverse sets of GIS, BIM and IoT data for modeling the built environment. This is expected to reduce time spent on data processing tasks, allowing for greater investment of resources to creative activities such as applications of results to design solutions.
-## Generative Design Algorithms
-It is a challenge for designers to encode their design as computable solution spaces as inputs for the generative design process. This proposal aims to streamline the process by developing algorithms like auto-parameterization of 3D models that are generalizable and can be easily adapted for different projects with minimal customization. In my previous studies, I have worked on developing and adapting algorithms for use in the design of the cooling system and building envelope and the design of building massing that maximizes solar performance2. In the latter study, the developed algorithms and tools were used for teaching in a two-week workshop in Singapore Polytechnic, where students with no training in computational design were able to successfully improve their designs with the developed algorithms. This proposal will improve on these algorithms and tools developed in these studies for wider usage in varying design scenarios, where solutions generated from the algorithms are used as benchmarks and precedents to guide design teams in their design process. I envision this will change how design teams work by allowing more time for reflecting on the generated solutions and through the reflections produce more innovative solutions.
-## Visualization and Communication
-Although, it is essential for designers to understand the modeling to facilitate the application of the result in a design solution. It is uncommon to visualize the workings of a model to communicate the underlying assumptions of the results. This proposal aims to facilitate communicating of modeling results to the designers. This is achieved through developing algorithms to process models, spatial and temporal data from the generative process for visualization. In my previous studies, I have informed research and enabled multidisciplinary collaboration through overlaying of modeling results with open GIS and time-series city data3. In the 2021 study, I was able to successfully visualize thermal comfort model results globally to facilitate an interdisciplinary discussion on ventilation strategy for a post-Covid world. This proposal will improve on the data processing algorithms developed and investigate novel visualization techniques for better communications of models. 
+# Work Experience
+
+- **Global Environmental Technologies Inc. (Sanken Setsubi Kogyo Co., LTD. U.S. Subsidiary) (2023 – Current)**
+  - Environmental Technology Senior Researcher
+  - Research on Radiant Heating and Cooling Panel Technology
+  - Involve in Building Construction Authority of Singapore Radiant Panel Demonstration Space Project
+
+- **Princeton University, Andlinger Center for Energy and Environment (2018 – Current)**
+  - Visiting Research Scholar (2023-Current)
+  - Associate Research Scholar (2020-2023)
+  - Distinguish Postdoctoral Fellow with Dr Forrest Meggers (2018-2020)
+  - Research on Design Prototyping with Advanced Digital Technologies for the Built Environment
+
+- **University of Pennsylvania, Weitzman School of Design (2020)**
+  - Visiting Scholar
+  - Research on the use of Geographic Information System (GIS) in the design process
+  - Involve in design studio, ‘Bioclimatic Studio 2020: Climate-Adaptive Design for the Data Center of the Future’
+
+- **National University of Singapore, Department of Architecture (2018)**
+  - Research Fellow with Dr Patrick Janssen
+  - Involve in “Parametric Urban Modeling Research Phase 2” and “Computational Thinking: Automated Formative Assessment of Parametric Modeling Assignments" projects
+
+- **Singapore-MIT Alliance for Research and Technology (SMART) – Center for Modeling and Environmental Sensing (CENSAM) (2015 – 2018)**
+  - Postdoctoral associate with Dr Leslie Norford
+  - Developed a design workflow with accompanying tools for the optimization of urban design in the early design stages
+
+- **National University of Singapore, Department of Architecture (2017)**
+  - Adjunct Lecturer
+  - Developed “spatial computational thinking” course with Dr Patrick Janssen
+
+- **Singapore Polytechnic, Department of Architecture (2017)**
+  - Adjunct Lecturer
+  - Developed a prototype tool for teaching design optimization in a studio environment
+
+# Education
+
+- **Future Cities Laboratory, Singapore-ETH Centre, Department of Architecture, ETH Zurich (2011 – 2015)**
+  - PhD research with Dr. Arno Schlueter and Dr. Patrick Janssen
+  - Dissertation: “Architectural Design Exploration of Low-Exergy (LowEx) Buildings in the Tropics” supervised by Dr. Arno Schlueter and Dr. Patrick Janssen
+  - Project 1:  BubbleZERO Laboratory of the Low Exergy Module to experiment with novel systems for cooling, dehumidification and ventilation for the tropical climate
+  - Project 2: 3for2-Beyond Efficiency: propose to build 3 floors within the space of 2 through systems integration, hence 3for2, by eliminating the excesses, while achieving 2x performance.
+- **National University of Singapore, Department of Architecture (2009 – 2010)**
+  - M (Arch) – Specialization in Design Technology and Sustainability
+  - Dissertation: “The Design of Naturally Ventilated Atrium Space using Multi-Zone Airflow Simulation: The Architectural Implication on the Schematic Stage of the Design Process” supervised by Dr. Patrick Janssen
+- **National University of Singapore, Department of Architecture (2005-2009)**
+  - BA (Arch) (Hons)
+  - Areas of concentration: sustainable design, computational design tools
+
+# Grants
+- Princeton University Andlinger Center for Energy and the Environment Fund for Energy Reserach with Corporate Partners (2023-2026) – Re2Rad: Research of Renewables-powered Radiant Systems demonstrating next generation control of comfort, air-quality and emissions – from lab to testbed to industry to campus, Industry Collaborator, USD 600, 000
+- Research Project with Housing Development Board of Singapore (2021-2023) – Optimization Algorithm for Rapid Sustainable Planning and Design, Collaborator, USD 250, 000 (SGD 349,200)
+- Distinguished Postdoctoral Fellowship, Andlinger Center for Energy and the Environment (2018-2020), USD 130, 000
+- SMART-CENSAM Research Initiative (2017-2018) – Processing Terrestrial LiDAR Scanned Trees for Multi-Disciplinary Analysis, Principal Investigator, USD 5000 (SGD 7000)
+
+# Awards
+- CAADRIA Conference 2023, Best Paper Award – Runner Up, “Comparing Design Strategies: A System for Optimization-based Design Exploration” (2023)
+- The Journal of Digital Landscape Architecture award 2020 on Scientific Merit, “Modelling the Built Environment in 3D to Visualize Data from Different Disciplines: The Princeton University Campus” (2020)
+- CAADRIA Conference 2020, Best Paper Award – Runner Up, “Enabling Optimisation-Based Exploration for Building Massing Design - A Coding-free Evolutionary Building Massing Design Toolkit in Rhino-Grasshopper” (2020)
+- Student Poster Competition – 4th Holcim Forum 3rd Prize “Beyond Efficiency” (2013)
+- Young CAARDRIA Award 2013 “A Design Method for Multi-Criteria Optimisation of Low Exergy Architecture” (2013)
+
+# Skills
+## City & Building Information Modeling
+- Data Schema
+  - Industry Foundation Class (IFC) – Open data standard for Building Information Modeling.
+  - CityGML/ CityJSON – Open data standard for City Information Modeling.
+  - Shapefiles – Geospatial vector data format for GIS.
+  - Geojson – JSON geospatial vector data format.
+  - GIS Raster format (e.g. geotiff) – Geospatial raster data format.
+  - 3Dtiles – Open data standard for visualizing 3D city model on the web.
+- Software
+  - QGIS – Open source GIS software.
+  - FreeCAD – Open source 3D parametric modeling tool.
+  - Blender3D – Open source 3D modeling tool.
+  - Sketchup – 3D modeling tool.
+  - Rhinoceros3D & Grasshopper – 3D NURBS modeling tool.
+- Databases
+  - FROST-Server – A server implementation of the OGC SensorThings API.
+  - 3DCityDB – 3D city database to store 3D city models.
+    - BIMServer – Building Information Modeling Database
+- IoT Hardware
+  - Particle.io – Internet of Things (IoT) devices for distributed environmental sensing.
+  - HUZZAH32 – Espressif32 microprocessor for setting up IoT development.
+  - SHT31 – Temperature and humidity sensor for IoT development.
+  - Telaire T6713 – CO2 sensor for IoT development.
+  - Sensirion SCD30 – CO2, temperature and humidity sensor for IoT development.
+  - Ultrasonice Distance Sensor RCWL-1601 – Distance sensor for IoT development.
+  - Amphenol GE2102 Thermistor – Sensor for air and surface temperatures for IoT development.
+  - Digiten Flow Sensor FL408 – Flow sensor for IoT development.
+  - MLX90614 – Infrared surface temperature sensor for IoT development.
+  - TS2591 – Lighting (lux) sensor for IoT development.
+  - Modern Device Wind Sensor Rev P – Air velocity sensor for IoT development.
+  - Fluxteq Heatflux Sensor – Heatflux sensor for IoT development.
+
+## Building Performance Simulations
+- OpenStudio – whole building energy modeling using EnergyPlus and Radiance for daylight analysis.
+- Radiance/DAYSIM – Solar simulation for predicting solar irradiation measurements. 
+- EnergyPlus – Building energy modeling software for predicting energy consumption.
+
+## Programming languages
+- Python
+  - Numpy – Numerical computing library.
+  - Matplotlib – Graphing library. 
+  - Scikit-learn – Machine learning library.
+  - Pyqtgraph – GUI library for rapid prototyping of scientific apps.
+  - Django – Python framework for web development.
+- Javascript
+  - CesiumJS

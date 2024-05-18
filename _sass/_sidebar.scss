@@ -55,7 +55,7 @@
     width: 100%;
   }
 }
-
+/*
 .sidebar__right {
   margin-bottom: 1em;
 
@@ -69,6 +69,22 @@
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
+  }
+}*/
+
+.sidebar__right {
+  margin-bottom: 1em;
+  
+  @include breakpoint($large) {
+    position: sticky !important;
+    float: right !important;
+    top: 0;
+    right: 0;
+    width: $right-sidebar-width-narrow;
+    margin-right: -1*$right-sidebar-width-narrow;
+    padding-left: 1em;
+    padding-top: 5em !important;
+    z-index: 10;
   }
 }
 
