@@ -113,8 +113,7 @@ redirect_from:
 ## Programming languages
 - Python
   - Numpy – Numerical computing library.
-  - Matplotlib – Graphing library. 
-  - Scikit-learn – Machine learning library.
+  - Matplotlib – Graphing library.
   - Pyqtgraph – GUI library for rapid prototyping of scientific apps.
   - Django – Python framework for web development.
 - Javascript
