@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Teaching"
+title: "Workshops and Courses"
 permalink: /teaching/
 author_profile: true
 toc: false
@@ -12,7 +12,7 @@ toc: false
   {% include archive-single.html %}
 {% endfor %} -->
 
-# E-books
+<!-- # E-books
 - **GIS4Design**
   - A QGIS guide book for designers. Offer step-by-step instructions for applying GIS in your design project. <a href="https://chenkianwee.github.io/gis4design" target="_blank">[Link]</a>
 
@@ -20,9 +20,8 @@ toc: false
   - A IoT guide book for designers. Offer step-by-step instructions for applying IoT sensors in your design project. <a href="https://chenkianwee.github.io/iot4design" target="_blank">[Link]</a>
 
 - **Open Computational Design for Sustainable Development**
-  - An E-book about the use of open source software for sustainable development. <a href="https://chenkianwee.github.io/opencd4sdev" target="_blank">[Link]</a>
+  - An E-book about the use of open source software for sustainable development. <a href="https://chenkianwee.github.io/opencd4sdev" target="_blank">[Link]</a> -->
 
-# Workshops and Modules
 - **University of Pennsylvania, Weitzman School of Design (2020-2022)**
   - Teach Geographic Information System (GIS) for a design studio setting
   - Visiting Scholar (2020)
