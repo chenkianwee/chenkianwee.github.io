@@ -22,6 +22,10 @@ toc: false
 - **Open Computational Design for Sustainable Development**
   - An E-book about the use of open source software for sustainable development. <a href="https://chenkianwee.github.io/opencd4sdev" target="_blank">[Link]</a> -->
 
+- **Cooper Union, The Irwin S. Chanin School of Architecture (2025)**
+  - Co-lecturer of ARCH 134B Environmental Technologies
+  - Teach HVAC systems to architectural students in year 3
+
 - **University of Pennsylvania, Weitzman School of Design (2020-2022)**
   - Teach Geographic Information System (GIS) for a design studio setting
   - Visiting Scholar (2020)

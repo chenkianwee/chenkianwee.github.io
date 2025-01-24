@@ -15,6 +15,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
+- *Chen, K.W.*, Nishizawa, M., Izuhara, I., Meggers, F., (2024). ***Using an Open-Source Software Stack to Visualize Building Automation System Data in 3D***, in: The 5th Asia Conference of International Building Performance Simulation Association 2024. Osaka, Japan, 237–244. <a href="https://publications.ibpsa.org/conference/paper/?id=asim2024_1116" target="_blank">[Link]</a>
+
 - *Chen, K.W.*, Janssen, P., Aviv, D., Ninsalam, Y., Meggers, F., (2022). ***A Framework for Considering the Use of Computational Design Technologies in the Built Environment Design Process***. ITcon 27, 1010–1027. <a href="https://doi.org/10.36680/j.itcon.2022.049" target="_blank">[DOI]</a>
 
 - Aviv, D., *Chen, K.W.*, Teitelbaum, E., Sheppard, D., Pantelic, J., Rysanek, A., Meggers, F., (2021). ***A Fresh (Air) Look at Ventilation for COVID-19: Estimating the global energy savings potential of coupling natural ventilation with novel radiant cooling strategies***. Applied Energy 116848. <a href="https://doi.org/10.1016/j.apenergy.2021.116848" target="_blank">[DOI]</a>

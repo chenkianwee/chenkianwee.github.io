@@ -24,6 +24,15 @@ redirect_from:
   - Distinguish Postdoctoral Fellow with Dr Forrest Meggers (2018-2020)
   - Research on Design Prototyping with Advanced Digital Technologies for the Built Environment
 
+- **Cooper Union, The Irwin S. Chanin School of Architecture (2025)**
+  - Assistant Professor Adjunct
+  - Develop syllabus for arch 134B module-2 HVAC-conscious architectural design
+
+- **University of Pennsylvania, Weitzman School of Design (2020)**
+  - Visiting Scholar
+  - Research on the use of Geographic Information System (GIS) in the design process
+  - Involve in design studio, ‘Bioclimatic Studio 2020: Climate-Adaptive Design for the Data Center of the Future’
+
 - **University of Pennsylvania, Weitzman School of Design (2020)**
   - Visiting Scholar
   - Research on the use of Geographic Information System (GIS) in the design process
